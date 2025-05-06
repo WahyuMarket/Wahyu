@@ -100,7 +100,7 @@
     </p>
     <div class="ip-box" onclick="copyIP()">Klik untuk salin IP Server: <span id="server-ip">103.151.140.215:7006</span></div><br><br>
     <button class="cta-button" onclick="window.location.href='https://discord.gg/9GNdUTyM'">Join Discord & Gabung Sekarang!</button>
-    <button class="cta-button" id="play-music">Play Musik</button>
+    <button class="cta-button" onclick="window.location.href='https://chat.whatsapp.com/FHbAcY90LVKEJtNDTkzsG8'">Gabung Komunitas WhatsApp</button>
   </div>
 
   <div class="staff">
@@ -120,16 +120,6 @@
       navigator.clipboard.writeText(ip);
       alert("IP berhasil disalin: " + ip);
     }
-
-    document.getElementById("play-music").addEventListener("click", function() {
-      const iframe = document.createElement("iframe");
-      iframe.src = "https://www.youtube.com/embed/5Y_3P5jNg_Y?autoplay=1&loop=1&playlist=5Y_3P5jNg_Y";
-      iframe.allow = "autoplay";
-      iframe.style.width = "0";
-      iframe.style.height = "0";
-      iframe.style.border = "0";
-      document.body.appendChild(iframe);
-    });
   </script>
 </body>
 </html>
